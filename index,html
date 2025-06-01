@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Dynamic Weather Forecast</h1>
+        <div class="search-box">
+            <input type="text" id="location-input" placeholder="Enter city name or use current location...">
+            <button id="search-button" class="btn-3d">Get Weather</button>
+            <button id="current-location-button" class="btn-3d">📍</button>
+        </div>
+
+        <div id="weather-display" class="weather-info-card">
+            <p class="message">Enter a city, click 'Get Weather', or use your current location.</p>
+        </div>
+
+        <div id="forecast-display" class="forecast-section">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-cards">
+                </div>
+            <p class="message" id="forecast-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
